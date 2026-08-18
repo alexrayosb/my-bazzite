@@ -38,6 +38,8 @@ modules:
         - python3-tkinter
         - vte291-gtk4
         - xr-hardware
+        - monado
+        - xrizer
 
   - type: systemd
     system:
