@@ -20,6 +20,7 @@ modules:
         - nordvpn.repo  # lives at files/dnf/nordvpn.repo in this repo
       copr:
         - jackgreiner/lug-helper
+        - "@xr-sig/xrizer"
     install:
       packages:
         # NordVPN (official repo; GUI lands in /opt, handled automatically)
