@@ -41,6 +41,27 @@ modules:
         - xr-hardware
         - monado
         - xrizer
+        - cargo
+        - clang19-devel
+        - cmake
+        - eigen3-devel
+        - glslang-devel
+        - glslc
+        - libbsd-devel
+        - libusb1
+        - libusb1-devel
+        - libX11-devel
+        - libxcb-devel
+        - libXrandr-devel
+        - mesa-libGL-devel
+        - ninja-build
+        - openxr-devel
+        - SDL2-devel
+        - systemd-devel
+        - vulkan-devel
+        - vulkan-loader-devel
+        - wayland-devel
+        - wayland-protocols-devel
 
   - type: systemd
     system:
