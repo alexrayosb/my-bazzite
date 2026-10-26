@@ -53,15 +53,18 @@ modules:
         - libX11-devel
         - libxcb-devel
         - libXrandr-devel
-        - mesa-libGL-devel
         - ninja-build
         - openxr-devel
-        - SDL2-devel
         - systemd-devel
         - vulkan-devel
         - vulkan-loader-devel
         - wayland-devel
         - wayland-protocols-devel
+       
+  - type: script
+    snippets:
+      - dnf5 -y install --setopt=disable_excludes=fedora mesa-libGLU-devel
+      - dnf5 -y install SDL2-devel
 
   - type: systemd
     system:
